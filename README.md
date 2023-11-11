@@ -70,3 +70,5 @@ movie.actors.create(name: "Brad Pitt")
 movie.actors.create(name: "Edward Norton")
 Movie.first.actors
 pp Actor.all
+
+Movie.first.destroy
